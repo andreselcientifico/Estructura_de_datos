@@ -46,3 +46,8 @@ if  __name__ == '__main__':
     food.enqueue('spam')
     print(food.head.data)
     print(food.head.next.data)
+    print(food.tail.data)
+    print(food.tail.previous.data)
+    print(food.count)
+    food.dequeue()
+    print(food.head.data)
